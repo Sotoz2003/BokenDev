@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOKEN CONTACT</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/BOKEN.png" sizes="160x160?2">  
+
+</head>
+
+<body>
+  <header>
+    <div class="main-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+
+            <h1><a class="navbar-brand" href="ACCUEIL.html" data-0="line-height:90px;" data-300="line-height:50px;">
+                Boken
+              </a></h1>
+
+          </div>
+
+          <div class="col-md-8">
+            <div class="dropdown">
+              <ul class="nav nav-pills">
+                <li><a href="ACCUEIL.html">ACCUEIL</a></li>
+                <li><a href="ACHAT.html">ACHAT</a></li>
+                <li><a href="ANNONCE.html">ANNONCE</a></li>
+                <li class="active"><a href="CONTACT.html">CONTACT</a></li>
+                <li><a href="CONNEXION.html">CONNEXION</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="content">
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94740138765!2d2.276848357990554!3d48.85883763513226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1564934079495!5m2!1sfr!2sfr"  width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Prenez contact avec nous en remplissant le formulaire suivant <strong>formulaire de contact ci-dessous</strong></h4>
+          <div id="sendmessage">Votre message a bien été envoyé. Je vous remercie !</div>
+          <div id="errormessage"></div>
+          <form action="" id="contactform" method="post" role="form" class="contactForm">
+            <div class="row">
+              <div class="col-lg-4 field">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Ton nom" data-rule="minlen:4"
+                  data-msg="Veuillez entrer au moins 4 caractères" />
+                <div class="validation">
+                </div>
+              </div>
+              <div class="col-lg-4 field">
+                <input type="text" name="email" placeholder="* Entrez votre adresse email" data-rule="email" data-msg="Veuillez entrer un email valide" />
+                <div class="validation">
+                </div>
+              </div>
+              <div class="col-lg-4 field">
+                <input type="text" name="subject" placeholder="Entrez votre sujet" data-rule="minlen:4" data-msg="Veuillez entrer au moins 4 caractères" />
+                <div class="validation">
+                </div>
+              </div>
+              <div class="col-lg-12 margintop10 field">
+                <textarea rows="12" name="message" class="input-block-level" placeholder="* Votre message ici...."
+                  data-rule="required" data-msg="Écrivez quelque chose, s'il vous plaît."></textarea>
+                <div class="validation">
+                </div>
+                <p>
+                  <button class="btn btn-theme margintop10 pull-left" type="submit">Mettez un message</button>
+                  <span class="pull-right margintop20">* Merci de remplir tous les champs du formulaire, merci !</span>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section id="footer" class="section footer">
+      <div class="container">
+        <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+          <div class="col-sm-12 align-center">
+            <ul class="social-network social-circle">
+              <li><a href="https://www.facebook.com/profile.php?id=100040179584233" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/BokenDev" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/boken-developpement-50871a190/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-12 text-center">
+            <p>Copyright &copy; GuyEdit</p>
+          <div class="credits">
+            Designed by <a href="https://www.youtube.com/channel/UCue_1JJ3cp99OB8hR8RX1bw">GuyEdit</a>
+          </div>
+        </div>>
+      </div>
+
+    </section>
+    <a href="#" class="scrollup"><i class="fa fa-chevron-up"> </i></a>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
